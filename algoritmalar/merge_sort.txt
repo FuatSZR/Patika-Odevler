@@ -1,0 +1,19 @@
+1.soru
+      [16,21,11,8,12,22]
+ 
+   [16,21,11]      [8,12,22]
+
+  [16] [21,11]    [8]   [12,22]
+
+[16]  [21] [11]   [8]  [12] [22]
+
+  [16] [11,21]    [8]   [12,22]
+
+   [11,16,21]      [8,12,22]
+
+      [8,11,12,16,21,22]
+
+2.soru
+
+Normalde O(nlogn)dir Bu durumda n adet verimiz var, n+1 adımda sıraladık.
+Ancak O(n+1) == O(n) olduğundan sonucumuz O(n) dir.
